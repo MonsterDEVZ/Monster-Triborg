@@ -1,0 +1,175 @@
+{
+  "fallback": {
+    "welcome_text": "Здравствуйте! Я — ассистент Monster Corp.\n\nКакое направление вас интересует?",
+    "buttons": [
+      {
+        "text": "Monster Agency (Агентство)",
+        "callback_data": "select_agency"
+      },
+      {
+        "text": "Monster CG (AI, CG, VFX, AIGC)",
+        "callback_data": "select_cg"
+      },
+      {
+        "text": "Monster Express (Экспресс-заказы)",
+        "callback_data": "select_express"
+      }
+    ]
+  },
+  "agency": {
+    "name": "MONSTER AGENCY",
+    "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/b22d2e0cb695016cfcd3ff05ae0027f540fba756be04fcbb733fc731e09a1a46",
+    "step1": {
+      "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover.jpg",
+      "caption": "Здравствуйте! Я — ассистент Monster Agency.\n\nКакая услуга вас интересует?",
+      "buttons": [
+        {
+          "text": "Лого",
+          "callback_data": "agency_logo"
+        },
+        {
+          "text": "Брендинг",
+          "callback_data": "agency_branding"
+        },
+        {
+          "text": "Сайты",
+          "callback_data": "agency_sites"
+        },
+        {
+          "text": "CG",
+          "callback_data": "agency_cg"
+        },
+        {
+          "text": "VFX",
+          "callback_data": "agency_vfx"
+        },
+        {
+          "text": "AI",
+          "callback_data": "agency_ai"
+        },
+        {
+          "text": "Чатботы",
+          "callback_data": "agency_chatbots"
+        },
+        {
+          "text": "Баннер Анимация",
+          "callback_data": "agency_banner_anim"
+        }
+      ]
+    },
+    "step2": {
+      "success_caption_template": "✅ Принято: {choice}.\n\n👤 Наш стратег свяжется с вами в Telegram в ближайшее время.\n\n💡 Чтобы ускорить процесс, отправьте ссылку на ваш текущий сайт или соцсеть.",
+      "admin_message_template": "🔥 НОВЫЙ ЛИД: MONSTER AGENCY 🔥\n\n📋 Запрос: {choice}\n👤 Контакт (авто): @{username}\n\n🎯 Задача: Связаться в Telegram. Ожидает вопрос про сайт/соцсети.",
+      "choices": {
+        "agency_logo": "Лого",
+        "agency_branding": "Брендинг",
+        "agency_sites": "Сайты",
+        "agency_cg": "CG",
+        "agency_vfx": "VFX",
+        "agency_ai": "AI",
+        "agency_chatbots": "Чатботы",
+        "agency_banner_anim": "Баннер Анимация"
+      }
+    },
+    "final_question": {
+      "text": "✅ Спасибо! Заявка принята.\n\n💡 И последний момент, чтобы мы подготовились к разговору лучше: есть ли у вашей компании сайт или страница в Instagram?\n\nЕсли да, просто пришлите ссылку."
+    },
+    "followup": {
+      "admin_followup_template": "📎 FOLLOW-UP от @{username} (AGENCY):\n\n{message}"
+    }
+  },
+  "cg": {
+    "name": "MONSTER CG",
+    "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/dd3492da2e5307064e014e1c3bd6b3fdd1f268807cd5253165c63ebbc3fba1a1",
+    "step1": {
+      "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover-MonsterCG.jpg",
+      "caption": "Приветствую. Это Monster CG.\n\nКакое будущее мы создаем сегодня?",
+      "buttons": [
+        {
+          "text": "Промо Ролик",
+          "callback_data": "cg_promo"
+        },
+        {
+          "text": "AI Прогрев",
+          "callback_data": "cg_ai_warmup"
+        },
+        {
+          "text": "AI Сериалы",
+          "callback_data": "cg_ai_series"
+        },
+        {
+          "text": "3D LED",
+          "callback_data": "cg_3d_led"
+        },
+        {
+          "text": "AI Commercial",
+          "callback_data": "cg_ai_commercial"
+        }
+      ]
+    },
+    "step2": {
+      "success_caption_template": "✅ Принято: {choice}.\n\n🎬 Наш продюсер свяжется с вами в Telegram для брифинга.\n\n📎 Чтобы он мог подготовиться, пришлите ссылку на референсы или ваш проект.",
+      "admin_message_template": "🔥 НОВЫЙ ЛИД: MONSTER CG 🔥\n\n📋 Запрос: {choice}\n👤 Контакт (авто): @{username}\n\n🎯 Задача: Связаться в Telegram. Ожидает вопрос про референсы.",
+      "choices": {
+        "cg_promo": "Промо Ролик",
+        "cg_ai_warmup": "AI Прогрев",
+        "cg_ai_series": "AI Сериалы",
+        "cg_3d_led": "3D LED",
+        "cg_ai_commercial": "AI Commercial"
+      }
+    },
+    "final_question": {
+      "text": "✅ Спасибо! Заявка принята.\n\n💡 И последний момент, чтобы мы подготовились к разговору лучше: есть ли у вашей компании сайт или страница в Instagram?\n\nЕсли да, просто пришлите ссылку."
+    },
+    "followup": {
+      "admin_followup_template": "📎 FOLLOW-UP от @{username} (CG):\n\n{message}"
+    }
+  },
+  "express": {
+    "name": "MONSTER EXPRESS",
+    "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/6b5776d44bc2266b094fe393a07890eefddbe42480f7e7785b808cbb3275d9f8",
+    "step1": {
+      "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover-MonsterExpress.jpg",
+      "caption": "Monster Express. Результат — вчера.\n\nЧто нужно сделать максимально быстро?",
+      "buttons": [
+        {
+          "text": "Баннер-анимация",
+          "callback_data": "express_banner_anim"
+        },
+        {
+          "text": "AI-видео",
+          "callback_data": "express_ai"
+        },
+        {
+          "text": "Лого / Брендбук",
+          "callback_data": "express_logo"
+        },
+        {
+          "text": "Лендинг",
+          "callback_data": "express_landing"
+        },
+        {
+          "text": "Лендинг Про",
+          "callback_data": "express_landing_pro"
+        }
+      ]
+    },
+    "step2": {
+      "success_caption_template": "✅ Принято: {choice}.\n\n⚡ Менеджер свяжется с вами в Telegram в течение 15 минут для запуска.\n\n📋 Если есть техническое задание или бриф, пришлите его сейчас.",
+      "admin_message_template": "🔥 НОВЫЙ ЛИД: MONSTER EXPRESS 🔥\n\n📋 Запрос: {choice}\n👤 Контакт (авто): @{username}\n\n🎯 Задача: Связаться в Telegram. Ожидает вопрос про ТЗ.",
+      "choices": {
+        "express_banner_anim": "Баннер-анимация",
+        "express_ai": "AI-видео",
+        "express_logo": "Лого / Брендбук",
+        "express_landing": "Лендинг",
+        "express_landing_pro": "Лендинг Про"
+      }
+    },
+    "final_question": {
+      "text": "✅ Спасибо! Заявка принята.\n\n💡 И последний момент, чтобы мы подготовились к разговору лучше: есть ли у вашей компании сайт или страница в Instagram?\n\nЕсли да, просто пришлите ссылку."
+    },
+    "followup": {
+      "admin_followup_template": "📎 FOLLOW-UP от @{username} (EXPRESS):\n\n{message}"
+    }
+  }
+}

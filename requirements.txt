@@ -1,0 +1,15 @@
+# Telegram Bot Framework
+aiogram==3.13.1
+
+# HTTP Client for CRM Integration
+aiohttp==3.10.10
+
+# Configuration Management
+python-dotenv==1.0.1
+
+# Code Formatting (Development)
+black==24.10.0
+
+# Optional: Redis for production FSM storage
+# redis==5.0.8
+# aioredis==2.0.1
