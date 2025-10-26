@@ -9,4 +9,4 @@ cmds = [
 ]
 
 [start]
-cmd = "/opt/venv/bin/python3 apps/bot/main.py"
+cmd = "PYTHONPATH=/app:$PYTHONPATH /opt/venv/bin/python3 apps/bot/main.py"
