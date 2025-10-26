@@ -83,7 +83,7 @@
     "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/dd3492da2e5307064e014e1c3bd6b3fdd1f268807cd5253165c63ebbc3fba1a1",
     "step1": {
       "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover-MonsterCG.jpg",
-      "caption": "Приветствую. Это Monster CG.\n\nКакое будущее мы создаем сегодня?",
+      "caption": "Monster CG — Искусство создавать будущее\n\nКакое будущее мы создаем сегодня?",
       "buttons": [
         {
           "text": "Промо Ролик",
