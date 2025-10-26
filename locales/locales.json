@@ -21,7 +21,7 @@
     "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/b22d2e0cb695016cfcd3ff05ae0027f540fba756be04fcbb733fc731e09a1a46",
     "step1": {
       "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover.jpg",
-      "caption": "Здравствуйте! Я — ассистент Monster Agency.\n\nКакая услуга вас интересует?",
+      "caption": "Monster Agency: Команда Монстр — 40+ digital-специалистов. Мы создаем бренды, контент и технологии формируя реальность, частью которой хочется быть\n\nКакая услуга вас интересует?",
       "buttons": [
         {
           "text": "Лого",
