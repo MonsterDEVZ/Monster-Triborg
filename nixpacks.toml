@@ -3,10 +3,10 @@ nixPkgs = ["python311"]
 
 [phases.install]
 cmds = [
-    "python3 -m ensurepip",
-    "python3 -m pip install --upgrade pip",
-    "python3 -m pip install -r requirements.txt"
+    "python3 -m venv /opt/venv",
+    "/opt/venv/bin/pip install --upgrade pip",
+    "/opt/venv/bin/pip install -r requirements.txt"
 ]
 
 [start]
-cmd = "python3 apps/bot/main.py"
+cmd = "/opt/venv/bin/python3 apps/bot/main.py"
