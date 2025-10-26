@@ -130,7 +130,7 @@
     "webhook_url": "https://data.widgets.d-novation.com/api/webhook/32485122/6b5776d44bc2266b094fe393a07890eefddbe42480f7e7785b808cbb3275d9f8",
     "step1": {
       "photo_url": "https://pub-68f0f95cdc3344e2b4ff5ce24184f710.r2.dev/Cover-MonsterExpress.jpg",
-      "caption": "Monster Express. Результат — вчера.\n\nЧто нужно сделать максимально быстро?",
+      "caption": "Monster Express — Искусство запускать завтра уже сегодня\n\nЧто нужно сделать максимально быстро?",
       "buttons": [
         {
           "text": "Баннер-анимация",
