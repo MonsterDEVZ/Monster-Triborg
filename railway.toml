@@ -2,6 +2,10 @@
 builder = "NIXPACKS"
 
 [deploy]
-startCommand = "python3 apps/bot/main.py"
+startCommand = "/opt/venv/bin/python3 apps/bot/main.py"
 restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 10
+
+[[deploy.environmentVariables]]
+name = "PYTHONPATH"
+value = "/app"
