@@ -1,6 +1,6 @@
 {
   "fallback": {
-    "welcome_text": "Здравствуйте! Я — ассистент Monster Corp.\n\nКакое направление вас интересует?",
+    "welcome_text": "Здравствуйте! Я — Monster Ассистент.\n\nКакое направление вас интересует?",
     "buttons": [
       {
         "text": "Monster Agency (Агентство)",
